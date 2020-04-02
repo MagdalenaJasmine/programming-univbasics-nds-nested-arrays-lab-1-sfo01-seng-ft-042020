@@ -34,7 +34,8 @@ def sorted_matrix
   produce_storage_room=[
     ["Grapefruit","Pineapple","Oranges","Watermelon","Eggplant"],
     ["Strawberries","Potatoes","Grapes","Avocadoes","Asparagus"]
-    ].sort
+    ]
+    sorted_produce_storage_room=produce_storage_room.sort
 end
 
 def matrix_lookup(matrix, row, column)
